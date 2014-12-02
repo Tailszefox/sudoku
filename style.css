@@ -1,0 +1,133 @@
+body
+{
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+#explications
+{
+	position: absolute;
+	visibility: hidden;
+	padding: 5px;
+	background-color: #FFFFFF;
+	margin: 1px;
+	text-align: justify;
+	border: dotted 1px;
+	width: 30%;
+}
+
+#explicationTechnique
+{
+	position: fixed;
+	bottom: 5%;
+	left: 10%;
+	padding: 5px;
+	visibility: hidden;
+	width: 80%;
+	border: dotted 1px;
+	background-color: #FFFFFF;
+}
+
+#coordonnees
+{
+	position: fixed; 
+	width: 90%; 
+	top: 0%; 
+	left: 5%; 
+	font-size: 16pt;
+	font-weight: bold;
+	padding: 5px;
+	border: solid 1px;
+	background-color: #FFFFFF;
+	visibility: hidden;
+}
+
+#tableau
+{
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 2px;
+}
+
+.tableauresolu
+{
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 2px;
+	width: 300px;
+	height: 265px;
+}
+
+.technique
+{
+	color: blue;
+}
+
+.defaut
+{
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid;
+	font-size: 20px;
+	width: 30px;
+	padding: 0px;
+}
+
+.remplir 
+{
+	background-color: #FFCF00;
+	text-align: center;
+	vertical-align: middle;
+	border: none;
+	font-size: 16pt;
+	width: 30px;
+	height: 27px;
+}
+
+.remplir:focus
+{
+	text-decoration: blink;
+}
+
+.droite
+{
+	border-right: solid 3px;
+}
+
+.bas
+{
+	border-bottom: solid 3px;
+}
+
+.inconnu
+{
+	border-color: #000000;
+	background-color: #BBBBBB;
+	font-size: xx-small;
+}
+
+.connu
+{
+	border-color: #000000;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.resolu
+{
+	border-color: #000000;
+	background-color: #FFCF00;
+	color: #0000FF;
+}
+
+form
+{
+	text-align: center;
+}
+
+p
+{
+	text-align: center;
+}
