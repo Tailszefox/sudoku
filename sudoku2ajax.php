@@ -599,7 +599,7 @@ AfficherSudoku($sudoku);
 ?>
 <form action="sauvegarder.php" method="post" name="sauvegarder">
 <p>
-<input type="submit" value="Sauvegarder le Sudoku" onclick="return DemanderNom()" />
+<!--<input type="submit" value="Sauvegarder le Sudoku" onclick="return DemanderNom()" />-->
 <input type="hidden" name="nom" />
 <input type="hidden" name="sudoku" value="<?php
 $case = 1;
